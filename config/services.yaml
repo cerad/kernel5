@@ -10,7 +10,8 @@ services:
         exclude:
             - '../src/Common/Infrastructure/Symfony/Kernel.php'
 
-    Project\SubProject\Common\Interfaces\Controller\:
-        resource: '../src/Common/Interfaces/Controller/'
-        tags: ['controller.service_arguments']
+    # Not needed as long as AbstractController is used
+    #Project\SubProject\Common\Interfaces\Controller\:
+    #    resource: '../src/Common/Interfaces/Controller/'
+    #    tags: ['controller.service_arguments']
 
