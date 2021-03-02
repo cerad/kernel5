@@ -61,7 +61,7 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Project\\SubProject\\": "src/"
         }
     },
     "autoload-dev": {
